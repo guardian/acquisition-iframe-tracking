@@ -116,7 +116,7 @@ function requestParentAcquisitionData(): void {
 }
 
 function initPolyfill(): void {
-    const polyfillSrc = 'https://cdn.polyfill.io/v2/polyfill.min.js?features=Array.from,URL';
+    const polyfillSrc = 'https://assets.guim.co.uk/polyfill.io/v3/polyfill.min.js?features=Array.from,URL';
     const polyfillEl = document.createElement('script');
     polyfillEl.setAttribute('src', polyfillSrc);
     if (document.head) {
